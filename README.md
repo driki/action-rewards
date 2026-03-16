@@ -107,6 +107,18 @@ python cli.py summary
 
 Data lives in `~/.action-rewards/actions.db`. Override with `--db`.
 
+## Origin story
+
+I built this while automating FOIA request processing for a government data pipeline. The system files public records requests, classifies responses, and routes data to parsers. Some strategies worked (re-fingerprinting broken municipal portals), some didn't (auto-escalating denials). Without closing the loop, the system kept repeating mistakes.
+
+action-rewards started as 50 lines tracking heal/fix/respond outcomes. It's now the decision layer for a pipeline that processes hundreds of municipalities autonomously.
+
+## Author
+
+**Matt MacDonald** -- building public record intelligence infrastructure.
+
+[LinkedIn](https://www.linkedin.com/in/mattmacdonald2/) | [GitHub](https://github.com/driki)
+
 ## License
 
 MIT
