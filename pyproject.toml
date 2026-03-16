@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "action-rewards"
+version = "0.1.0"
+description = "Your automation takes actions. Some work, some don't. This learns which is which."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [{name = "Matt MacDonald"}]
+keywords = ["automation", "reinforcement-learning", "strategy", "ops"]
+
+[project.scripts]
+ar = "cli:main"
+
+[project.urls]
+Homepage = "https://github.com/driki/action-rewards"
